@@ -13,3 +13,30 @@ git branch -M main
 git push -u origin main
 
 
+Criar Path
+
+<thead>
+<tr><td rowspan="1" colspan="3">LiferayLearn</td></tr>
+</thead>
+
+<tbody>
+<tr>
+	<td>NO_RESULTS_MESSAGE</td>
+	<td>//h4[@id="noResultsMessage"]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>SEARCH_BAR</td>
+	<td>//input[@id="docsSearch"]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>SEARCH_RESULTS</td>
+	<td>//ul[@class='search']//a[contains(.,'${key_searchTerm}')]</td>
+	<td></td>
+</tr>
+</tbody>
+
+</table>
+</body>
+</html>
